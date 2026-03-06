@@ -1,0 +1,12 @@
+
+[configuration]
+entry_symbol = "cgal_gdextension_library_init"
+compatibility_minimum = "4.5"
+
+[libraries]
+macos.debug = "res://build/bin/libcgal_gdextension.dylib"
+macos.release = "res://build/bin/libcgal_gdextension.dylib"
+windows.debug = "res://build/bin/cgal_gdextension.dll"
+windows.release = "res://build/bin/cgal_gdextension.dll"
+linux.debug = "res://build/bin/libcgal_gdextension.so"
+linux.release = "res://build/bin/libcgal_gdextension.so"
